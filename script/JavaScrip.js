@@ -9,5 +9,5 @@ function unflipCard(card) {
   clearTimeout(flipTimeout); 
   flipTimeout = setTimeout(function() {
     card.querySelector('.flip-card-inner').style.transform = 'rotateY(0deg)';
-  }, 200);
+  }, 220);
 }

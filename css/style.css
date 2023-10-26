@@ -16,13 +16,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: var(--destaq); */
     background-color: rgb(207, 229, 236);
 }
 header{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/back.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/back.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -46,7 +45,7 @@ a:link{
     color: var(--txt);
 }
 
-a:hover{
+header a:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.2);
     transform: scale(1.2); 

@@ -24,6 +24,11 @@ header{
 header img{
     border-radius: 48%;
 }
+header a p{
+    font-size: 0.9rem;
+
+}
 .content{
     height: 2000px;
 }
+

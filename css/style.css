@@ -53,6 +53,7 @@ header a:hover{
 .content{
     margin: 3rem;
     width: 100%;
+    height: 100vh;
     background-color: var(--fund);
     border: 1px solid;
 
@@ -60,6 +61,11 @@ header a:hover{
     flex-wrap: wrap;
     justify-content: center;
 
+}
+.ultima{
+    background-color: var(--destaq);
+    height: 100vh;
+    width: 100%;
 }
 .Leo,.Art,.Car,.Hel{
     width: 13rem;
@@ -79,4 +85,13 @@ header a:hover{
     width: 80%;
     height: 70%;
 }
-
+.hidden{
+    opacity: 0;
+    filter: blur(0px);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+}

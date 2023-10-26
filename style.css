@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 header{
     width: 100%;
@@ -18,15 +19,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 header img{
     border-radius: 48%;
 }
-header p{
-    font-size: 0.9rem;
-
+header h1{
+    font-size: 2rem;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
 }
 .content{
     height: 2000px;

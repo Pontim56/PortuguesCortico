@@ -178,7 +178,7 @@ nav ul{
     margin: 0rem 4rem;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 nav li{

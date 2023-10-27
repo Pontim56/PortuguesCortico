@@ -161,9 +161,8 @@ nav{
     flex-wrap: wrap;
     width: 100%;
     min-height: 5rem;
-    max-height: 7rem;
+
     justify-content: space-between;
-    align-content: center;
     transition: background 1s;
     position: fixed;
     transition: 0.3s;
@@ -172,13 +171,12 @@ nav{
 nav img{
     height: 4rem;
     margin: 0.6rem 5rem;
-
 }
 nav ul{
     margin: 0rem 4rem;
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 nav li{
@@ -205,8 +203,7 @@ nav li:hover{
     flex-wrap: wrap;
 
     justify-content: center;
-    align-content: space-between;
-
+    align-content: space-around;
 }
 .Autor{
     height: 41.59rem;
@@ -216,15 +213,14 @@ nav li:hover{
     flex-wrap: wrap;
 
     justify-content: center;
-    align-content: space-between;
+    align-content: space-around;
+    
 }
 
 .content2 h1{
     font-size: 3rem;
     color: var(--txt);
-    /* margin: 1rem; */
     margin-top: 5rem;
-
 }
 .content2 p{
     color: var(--txt);
@@ -237,3 +233,9 @@ nav li:hover{
     border-radius: 40%;
 }
 
+.paragrafos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-end;
+}

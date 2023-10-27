@@ -11,5 +11,3 @@ function unflipCard(card) {
     card.querySelector('.flip-card-inner').style.transform = 'rotateY(0deg)';
   }, 220);
 }
-
-

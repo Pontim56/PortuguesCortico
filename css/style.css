@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
     --txt:rgb(40, 40, 40);
-    --destaq:rgb(230, 187, 173);
-    --fund:rgb(173,216,230);
-    --fundoDtq:rgb(134, 197, 218);
+    --destaq:rgb(215, 173, 230);
+    --fundo2:rgb(173,216,230);
+    --fundo3:rgb(134, 197, 218);
+    --fundo:rgb(207, 229, 236);
 }
 *{
     margin: 0;
@@ -12,7 +13,10 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-body{
+html{
+    scroll-behavior: smooth;
+}
+#bod{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,7 +58,7 @@ header h1:hover{
     margin: 4rem;
     width: 100%;
 
-    background-color: var(--fund);
+    background-color: var(--fundo2);
     border: 1px solid;
 
     display: flex;
@@ -66,7 +70,7 @@ header h1:hover{
 .Leo,.Art,.Car,.Hel,.Edu{
     width: 17rem;
     height: 15rem;
-    background-color: var(--fundoDtq);
+    background-color: var(--fundo3);
     margin: 3rem;
     border: 1px solid;
 
@@ -152,6 +156,8 @@ header h1:hover{
   }
 
 
+
+
 nav{
     display: flex;
     width: 100%;
@@ -159,6 +165,8 @@ nav{
     justify-content: space-between;
     transition: background 1s;
     position: fixed;
+    transition: 0.3s;
+    background-color: var(--fundo);
 }
 nav img{
     height: 4rem;
@@ -166,46 +174,61 @@ nav img{
 }
 nav ul{
     margin: 0rem 4rem;
+    list-style: none;
+    display: flex;
 }
 nav li{
-    display: inline-block;
-    list-style: none;
-    justify-content: space-between;
+
     margin: 1.5rem 1rem;
     font-size: 1.3rem;
     color: var(--txt);
-    opacity: 0;
-}
-nav:hover{
-    background-color:var(--destaq) ;
-
-    border: 1px solid;
-}
-nav:hover li{
-    opacity: 1;
 }
 
+nav li:hover{
+    transform: scale(1.5);
+}
 .container2{
-    /* height: 41.59rem; */
-    height: calc(41.59rem*4);
+    height: calc((41.59rem*4));
     width: 100%;
-    background-image: linear-gradient(rgb(134, 197, 218),rgb(173,216,230));
+    background-color: var(--fundo);
     color: var(--txt);  
-
 }
-.Autor,.Livro,.Resumo,.Conclusao{
+.Livro,.Resumo,.Conclusao{
     height: 41.59rem;
     width: 100%;
 
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: center;
+    align-content: space-between;
+
 }
+.Autor{
+    height: 41.59rem;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: space-between;
+}
+
 .content2 h1{
     font-size: 3rem;
     color: var(--txt);
-    margin: 2rem;
+    /* margin: 1rem; */
+    margin-top: 5rem;
+
 }
-.Autor{
-    margin: 3rem;
+.content2 p{
+    color: var(--txt);
+    text-transform: capitalize;
+}
+#voltar{
+    padding: 0.7rem;
+    background-color: rgb(215, 173, 230);
+    border-radius: 40%;
 }
 

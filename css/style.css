@@ -50,8 +50,6 @@ a:link{
 }
 
 header h1:hover{
-    /* -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.2); */
     transform: scale(1.2); 
 }
 .content{
@@ -145,7 +143,7 @@ header h1:hover{
   
   .flip-card-back {
     border: 0.063rem solid var(--txt);
-    background-image: linear-gradient(rgba(134, 189, 207, 0.897),rgb(173, 216, 230));
+    background-image: linear-gradient(rgb(215, 173, 230),rgb(236, 192, 252));
 
     color: rgb(40,40,40);
 
@@ -160,9 +158,12 @@ header h1:hover{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 5rem;
+    min-height: 5rem;
+
     justify-content: space-between;
+    align-content: center;
     transition: background 1s;
     position: fixed;
     transition: 0.3s;
@@ -171,11 +172,14 @@ nav{
 nav img{
     height: 4rem;
     margin: 0.6rem 5rem;
+
 }
 nav ul{
     margin: 0rem 4rem;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 nav li{
 
@@ -225,6 +229,7 @@ nav li:hover{
 .content2 p{
     color: var(--txt);
     text-transform: capitalize;
+    text-align: justify;
 }
 #voltar{
     padding: 0.7rem;

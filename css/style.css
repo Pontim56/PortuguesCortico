@@ -239,3 +239,24 @@ nav li:hover{
     align-content: space-between;
     align-items: flex-end;
 }
+
+
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+/* p.slide-left{
+    animation-delay: 1s;
+} */
+/* .links.slide-left{
+    animation-delay: 1s;
+} */

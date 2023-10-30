@@ -77,6 +77,8 @@ header h1:hover{
     flex-wrap: wrap;
 
     align-items: center;
+
+    cursor: default;
 }
 .content img{
     border-radius: 60%;
@@ -163,10 +165,12 @@ nav{
     min-height: 5rem;
 
     justify-content: space-between;
-    transition: background 1s;
+    /* transition: background 1s; */
     position: fixed;
-    transition: 0.3s;
-    background-color: var(--fundo);
+    /* transition: 0.3s; */
+    /* background-color: var(--fundo); */
+    background-color: rgb(207, 229, 236,1);
+
 }
 nav img{
     height: 4rem;
@@ -222,12 +226,14 @@ nav li:hover{
     color: var(--txt);
     margin-top: 5rem;
     opacity: 0;
+    cursor: default;
 }
 .content2 p{
     color: var(--txt);
     text-transform: capitalize;
     text-align: justify;
     opacity: 0;
+    cursor: default;
 }
 #voltar{
     padding: 0.7rem;
@@ -261,9 +267,4 @@ p.slide-left{
 }
 h1.slide-left{
     animation-delay: 1.8s;
-}
-.links.slide-left a{
-    animation-duration: 1s;
-    animation-delay: 0.8s;
-    /* opacity: 0; */
 }

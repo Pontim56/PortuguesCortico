@@ -10,7 +10,7 @@
     background: var(--destaq);
 }
 body{
-    cursor: url('../images/cursor.png'),auto;
+    cursor:url('../images/cursor.png');
 }
 *{
     margin: 0;
@@ -230,7 +230,6 @@ nav li:hover{
     margin-top: 5rem;
     opacity: 0;
     cursor: default;
-    cursor: url('../images/cursor.png'),auto;
 }
 .content2 p{
     color: var(--txt);

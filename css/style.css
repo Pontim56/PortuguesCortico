@@ -6,6 +6,12 @@
     --fundo3:rgb(134, 197, 218);
     --fundo:rgb(207, 229, 236);
 }
+::selection{
+    background: var(--destaq);
+}
+body{
+    cursor: url('../images/Leonardo.jpeg'),auto;
+}
 *{
     margin: 0;
     padding: 0;
@@ -79,6 +85,7 @@ header h1:hover{
     align-items: center;
 
     cursor: default;
+
 }
 .content img{
     border-radius: 60%;
@@ -165,12 +172,8 @@ nav{
     min-height: 5rem;
 
     justify-content: space-between;
-    /* transition: background 1s; */
     position: fixed;
-    /* transition: 0.3s; */
-    /* background-color: var(--fundo); */
-    background-color: rgb(207, 229, 236,1);
-
+    background-color: var(--fundo);
 }
 nav img{
     height: 4rem;
@@ -226,7 +229,8 @@ nav li:hover{
     color: var(--txt);
     margin-top: 5rem;
     opacity: 0;
-    cursor: default;
+    /* cursor: default; */
+    cursor: url('../images/Leonardo.jpeg'),auto;
 }
 .content2 p{
     color: var(--txt);

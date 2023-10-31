@@ -9,9 +9,6 @@
 ::selection{
     background: var(--destaq);
 }
-body{
-    cursor:url('../images/cursor.png');
-}
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +18,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    cursor:url('../images/cursor.png');
 }
 #bod{
     display: flex;

@@ -10,7 +10,7 @@
     background: var(--destaq);
 }
 body{
-    cursor: url('../images/Leonardo.jpeg'),auto;
+    cursor: url('../images/cursor.png'),auto;
 }
 *{
     margin: 0;
@@ -229,8 +229,8 @@ nav li:hover{
     color: var(--txt);
     margin-top: 5rem;
     opacity: 0;
-    /* cursor: default; */
-    cursor: url('../images/Leonardo.jpeg'),auto;
+    cursor: default;
+    cursor: url('../images/cursor.png'),auto;
 }
 .content2 p{
     color: var(--txt);

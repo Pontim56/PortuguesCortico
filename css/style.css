@@ -165,13 +165,13 @@ header h1:hover{
 
 nav{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     min-height: 5rem;
 
     justify-content: space-between;
     position: fixed;
     background-color: var(--fundo);
+    /* background-color: var(--destaq); */
 }
 nav img{
     height: 4rem;
@@ -191,12 +191,45 @@ nav li{
     color: var(--txt);
 }
 
+.mob{
+    display: none;
+
+}
+
+
+.menu{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+}
+@media screen and (max-width: 1050px){
+	nav ul{
+        display: none;
+    }
+    .mob{
+    margin: 0rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: var(--txt);
+    }
+    .mob:hover{
+       transform: scale(1.5);
+    }
+}
+
+
+
+
+
+
 nav li:hover{
     transform: scale(1.5);
 }
 .container2{
     height: calc((41.59rem*4));
-    width: 100%;
+    width: 100vw;
     background-color: var(--fundo);
     color: var(--txt);  
 }

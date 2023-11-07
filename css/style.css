@@ -176,10 +176,11 @@ nav{
 }
 nav img{
     height: 4rem;
-    margin: 0.6rem 5rem;
+    margin: 0.6rem 0rem;
+    margin-left: 5rem;
 }
 nav ul{
-    margin: 0rem 4rem;
+    margin-right: 4rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -198,12 +199,8 @@ nav li{
 }
 
 
-.menu{
-    display: none;
-    height: 100vh;
-    width: 100vw;
-}
-@media screen and (max-width: 1050px){
+
+@media screen and (max-width: 900px){
 	nav ul{
         display: none;
     }
@@ -218,6 +215,10 @@ nav li{
     .mob:hover{
        transform: scale(1.5);
     }
+    #autor{
+        margin: 3.5rem 0rem;
+    }
+   
 }
 
 
@@ -230,11 +231,14 @@ nav li:hover{
 }
 .container2{
     height: calc((41.59rem*4));
+    /* height: calc((46.59rem*4)); */
     width: 100vw;
     background-color: var(--fundo);
-    color: var(--txt);  
+    color: var(--txt); 
+    display: flex; 
+    flex-wrap: wrap;
 }
-.Livro,.Resumo,.Conclusao{
+.Livro,.Resumo,.Conclusao,.Autor{
     height: 41.59rem;
     width: 100%;
 
@@ -244,7 +248,7 @@ nav li:hover{
     justify-content: center;
     align-content: space-around;
 }
-.Autor{
+/* .Autor{
     height: 41.59rem;
     width: 100%;
 
@@ -254,7 +258,7 @@ nav li:hover{
     justify-content: center;
     align-content: space-around;
     
-}
+} */
 
 .content2 h1{
     font-size: 3rem;

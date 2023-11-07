@@ -171,7 +171,8 @@ nav{
     justify-content: space-between;
     position: fixed;
     background-color: var(--fundo);
-    /* background-color: var(--destaq); */
+    /* background-color: blue; */
+    z-index: 100;
 }
 nav img{
     height: 4rem;

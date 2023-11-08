@@ -166,7 +166,7 @@ header h1:hover{
 nav{
     display: flex;
     width: 100%;
-    min-height: 5rem;
+    height: 5rem;
 
     justify-content: space-between;
     position: fixed;
@@ -225,6 +225,22 @@ nav li{
     height: 100vh;
     background-color: var(--fundo3);
     display: none;
+    margin-top: 5rem;
+}
+
+#menu ul{
+    height: calc(100vh - 5rem);
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+    flex-direction: column;
+}
+#menu li{
+    
 }
 
 

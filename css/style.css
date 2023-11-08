@@ -2,9 +2,9 @@
 :root{
     --txt:rgb(40, 40, 40);
     --destaq:rgb(215, 173, 230);
+    --fundo:rgb(207, 229, 236);
     --fundo2:rgb(173,216,230);
     --fundo3:rgb(134, 197, 218);
-    --fundo:rgb(207, 229, 236);
 }
 ::selection{
     background: var(--destaq);
@@ -220,10 +220,10 @@ nav li{
     }
 }
 
-.menu{
+#menu{
     width: 100vw;
     height: 100vh;
-    background-color: brown;
+    background-color: var(--fundo3);
     display: none;
 }
 

@@ -202,7 +202,6 @@ nav li{
     margin-left: 5rem;
 }
 
-
 @media screen and (max-width: 900px){
     .logo{
         margin-left: 0;
@@ -279,7 +278,7 @@ li:hover{
     font-size: 3rem;
     color: var(--txt);
     margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     opacity: 0;
     cursor: default;
 }

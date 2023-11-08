@@ -26,7 +26,8 @@ function mostrarMenu(event){
     var imgC = document.getElementById("imgC");
     if (estilo.display==="none") {
         menu.style.display="block";
-        nav.style.backgroundColor="rgb(134, 197, 218)";
+        // nav.style.backgroundColor="rgb(134, 197, 218)";
+        nav.style.backgroundColor="rgb(173,216,230)";
         content2.style.display="none";
         imgC.style.display="block"
         imgM.style.display="none"

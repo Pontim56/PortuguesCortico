@@ -215,9 +215,9 @@ nav li{
     .mob:hover{
        transform: scale(1.5);
     }
-    /* #autor{
-        margin: 6rem 0rem;
-    } */
+    #autor{
+        margin: 3.5rem 0rem;
+    }
 }
 
 

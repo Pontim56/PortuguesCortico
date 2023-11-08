@@ -38,3 +38,26 @@ function mostrarMenu(event){
         content2.style.display="block";
     }
 }
+
+function fecharMenu() {
+    var imgM = document.getElementById("imgM");
+    var imgC = document.getElementById("imgC");
+    var nav = document.getElementById("nav");
+    var content2 = document.getElementById("content2");
+    var menu = document.getElementById("menu");
+    imgM.style.display="block"
+    imgC.style.display="none"
+    menu.style.display = "none";
+    nav.style.backgroundColor="rgb(207, 229, 236)";
+    content2.style.display="block";
+}
+
+
+
+var linksDoMenu = document.querySelectorAll('.menu a');
+
+linksDoMenu.forEach(function (link) {
+    link.addEventListener('click', function () {
+        fecharMenu();
+    });
+});

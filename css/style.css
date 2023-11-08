@@ -213,7 +213,7 @@ nav li{
         display: none;
     }
     .mob{
-    margin: 0rem 5rem;
+    margin-right: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

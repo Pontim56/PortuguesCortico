@@ -237,7 +237,7 @@ nav li:hover{
     flex-wrap: wrap;
 }
 .Livro,.Resumo,.Conclusao,.Autor{
-    height: 40rem;
+    min-height: 40rem;
     width: 100%;
 
     display: flex;

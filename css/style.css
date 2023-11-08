@@ -216,11 +216,16 @@ nav li{
        transform: scale(1.5);
     }
     #autor{
-        margin: 3.5rem 0rem;
+        margin-bottom: 5rem;
     }
 }
 
-
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: none;
+}
 
 
 

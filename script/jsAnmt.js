@@ -22,11 +22,17 @@ function mostrarMenu(event){
     var estilo = window.getComputedStyle(menu);
     var nav = document.getElementById("nav");
     var content2 = document.getElementById("content2");
+    var imgM = document.getElementById("imgM");
+    var imgC = document.getElementById("imgC");
     if (estilo.display==="none") {
         menu.style.display="block";
         nav.style.backgroundColor="rgb(134, 197, 218)";
         content2.style.display="none";
+        imgC.style.display="block"
+        imgM.style.display="none"
     }else{
+        imgM.style.display="block"
+        imgC.style.display="none"
         menu.style.display="none";
         nav.style.backgroundColor="rgb(207, 229, 236)";
         content2.style.display="block";

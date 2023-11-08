@@ -12,7 +12,7 @@
 <body>
     <div class="container2" #container2>
         <nav id="nav">
-            <div class="logo"><img src="https://www.utfpr.edu.br/icones/cabecalho/logo-utfpr/@@images/efcf9caf-6d29-4c24-8266-0b7366ea3a40.png" alt=""></div>
+            <div class="logo"><img class="img" src="https://www.utfpr.edu.br/icones/cabecalho/logo-utfpr/@@images/efcf9caf-6d29-4c24-8266-0b7366ea3a40.png" alt=""></div>
             <ul>
                 <li><a class="links" href="#autor">Autor</a></li>
                 <li><a class="links" href="#livro">Sobre</a></li>
@@ -20,8 +20,9 @@
                 <li><a class="links" href="#conclusao">Conclusão</a></li>
                 <li><a class="links" id="voltar" href="index.html">Voltar</a></li>
             </ul>
-            <div onclick="mostrarMenu()" class="mob">
-                <p id="butao">menu</p>
+            <div  class="mob">
+                <img class="img" id="imgM" onclick="mostrarMenu()" src="images/menu.svg" alt="">
+                <img class="img" id="imgC" onclick="mostrarMenu()" src="images/close.svg" alt="">
             </div>
         </nav>
         <div id="menu" class="menu">

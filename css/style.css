@@ -174,7 +174,7 @@ nav{
     /* background-color: blue; */
     z-index: 100;
 }
-nav img{
+.img{
     height: 4rem;
     margin: 0.6rem 0rem;
     margin-left: 5rem;
@@ -197,10 +197,18 @@ nav li{
     display: none;
 
 }
+.mob img{
+    height: 3rem;
 
+}
 
 
 @media screen and (max-width: 900px){
+    .img{
+        height: 3.7grem;
+        margin: 1rem 0rem;
+        margin-left: 4rem;
+    }
 	nav ul{
         display: none;
     }
@@ -212,9 +220,9 @@ nav li{
     font-size: 1.3rem;
     color: var(--txt);
     }
-    .mob:hover{
-       transform: scale(1.5);
-       cursor: pointer;
+    #imgC:hover,#imgM:hover{
+       transform: scale(1.4);
+       
     }
     #autor{
         margin-bottom: 5rem;
@@ -227,6 +235,7 @@ nav li{
     background-color: var(--fundo3);
     display: none;
     margin-top: 5rem;
+    
 }
 
 #menu ul{
@@ -307,9 +316,25 @@ h1.slide-left{
 
 
 
-li{
+nav li{
     animation: slideleft 1s both;
 }
+.menu li{
+    animation: aa 2s both;
+}
+@keyframes aa {
+    0%{
+
+        opacity: 0;
+
+    }
+    100%{
+
+        opacity: 1;
+    }
+    
+}
+
 
 li:nth-child(1){
     animation-delay: 0s;
@@ -332,11 +357,14 @@ li:nth-child(5){
    0%{
        transform: translate(-100px);
        opacity: 0;
-       scale: (1);
    }
    100%{
        transform: translate(0px);
        opacity: 1;
    }
+}
+
+#imgC{
+    display: none;
 }
 

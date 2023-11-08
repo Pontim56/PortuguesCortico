@@ -218,7 +218,6 @@ nav li{
     #autor{
         margin: 6rem 0rem;
     }
-   
 }
 
 
@@ -230,7 +229,7 @@ nav li:hover{
     transform: scale(1.5);
 }
 .container2{
-    height: calc((41.59rem*4));
+    /* height: calc((41.59rem*4)); */
     /* height: calc((46.59rem*4)); */
     width: 100vw;
     background-color: var(--fundo);
@@ -239,7 +238,7 @@ nav li:hover{
     flex-wrap: wrap;
 }
 .Livro,.Resumo,.Conclusao,.Autor{
-    height: 41.59rem;
+    height: 40rem;
     width: 100%;
 
     display: flex;

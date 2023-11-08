@@ -174,11 +174,6 @@ nav{
     /* background-color: blue; */
     z-index: 100;
 }
-.img{
-    height: 4rem;
-    margin: 0.6rem 0rem;
-    margin-left: 5rem;
-}
 nav ul{
     margin-right: 4rem;
     list-style: none;
@@ -187,7 +182,7 @@ nav ul{
     justify-content: center;
 }
 nav li{
-
+    
     margin: 1.5rem 1rem;
     font-size: 1.3rem;
     color: var(--txt);
@@ -195,32 +190,34 @@ nav li{
 
 .mob{
     display: none;
-
+    
 }
 .mob img{
     height: 3rem;
-
+    
+}
+.logo{
+    height: 4rem;
+    margin: 0.6rem 0rem;
+    margin-left: 5rem;
 }
 
 
 @media screen and (max-width: 900px){
-    .img{
-        height: 3.5rem;
-        margin: 1rem 0rem;
-    }
     .logo{
-        margin-left: 3rem;
+        margin-left: 0;
+        height: 4rem;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .mob{
+    display: flex;
+    align-items: center;
     }
 	nav ul{
         display: none;
-    }
-    .mob{
-    margin-right: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
-    color: var(--txt);
     }
     #imgC:hover,#imgM:hover{
        transform: scale(1.3);

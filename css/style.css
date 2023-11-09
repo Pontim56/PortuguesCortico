@@ -217,7 +217,7 @@ nav li{
 
 #menu{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: var(--fundo2);
     display: none;
     margin-top: 5rem;
@@ -250,7 +250,7 @@ li:hover{
     flex-wrap: wrap;
 }
 .Livro,.Resumo,.Conclusao,.Autor{
-    min-height: 40rem;
+    min-height: calc(100vh);
     width: 100%;
     
     display: flex;
@@ -269,6 +269,7 @@ li:hover{
     cursor: default;
 }
 .content2 p{
+    margin: 0rem 2rem;
     color: var(--txt);
     text-transform: capitalize;
     text-align: justify;

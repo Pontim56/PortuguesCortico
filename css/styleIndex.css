@@ -28,7 +28,6 @@
 
 html{
     scroll-behavior: smooth;
-    cursor:url('../images/cursor.png');
 }
 #bod{
     width: 100%;
@@ -159,8 +158,9 @@ header h1:hover{
 
     align-items: center;
 
-    cursor: default;
+    cursor:pointer;
 }
+
 .contentSandra{
     width: 100%;
     height: 100%;
@@ -181,7 +181,6 @@ header h1:hover{
     justify-content: center;
 }
 p,h1{
-    text-transform: capitalize;
     text-align:center;
     color: var(--txt);
 }
